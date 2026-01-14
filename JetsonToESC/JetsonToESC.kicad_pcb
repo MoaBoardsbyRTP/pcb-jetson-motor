@@ -108,6 +108,120 @@
 	(net 26 "unconnected-(J1-Pin_11-Pad11)")
 	(net 27 "unconnected-(J1-Pin_7-Pad7)")
 	(net 28 "unconnected-(J1-Pin_6-Pad6)")
+	(footprint "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(layer "F.Cu")
+		(uuid "283566d2-5b32-4524-a0d6-b83e58a7b9e6")
+		(at 141 83.95)
+		(descr "Plated Hole as test Point, diameter 3.0mm")
+		(tags "test point plated hole")
+		(property "Reference" "H1"
+			(at 0 -3.048 0)
+			(layer "F.SilkS")
+			(uuid "057c2b67-43a5-4567-9fa8-57d05f5fe58a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3 0)
+			(layer "F.Fab")
+			(uuid "a7a89e86-285d-47d6-9971-6f4d9cb7792e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bd2cf5d-0988-44bd-8c70-c6bd4c8574dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "791e0981-3bb1-46eb-a992-fd0d351c6a87")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "594c51d8-933e-4078-8291-f2e193276781")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/2e33546f-7b63-4567-8f1c-0f6fc2f024b3")
+		(sheetname "Raíz")
+		(sheetfile "JetsonToESC.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "ab4cacd7-7a20-4158-b133-7924df23e320")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "927b5fcc-a28c-4df1-b6ea-486fcbe1527d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.05 0)
+			(layer "F.Fab")
+			(uuid "ce811d26-2863-485d-90c3-c536436ee8be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b6430517-a0ec-46d4-a615-e5baa77181b4")
+		)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d5f387d1-819c-47a2-9607-db04ef298dcd")
@@ -1403,6 +1517,120 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+		(layer "F.Cu")
+		(uuid "e3ce9d7c-a718-415a-bf5e-747b3bc72f49")
+		(at 167 84)
+		(descr "Plated Hole as test Point, diameter 3.0mm")
+		(tags "test point plated hole")
+		(property "Reference" "H2"
+			(at 0 -3.048 0)
+			(layer "F.SilkS")
+			(uuid "8040e9b9-1ac7-425c-ac9b-05b37218e1e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3 0)
+			(layer "F.Fab")
+			(uuid "12e17a53-405c-45a8-a1c0-43c1b461e042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "089e39b4-30cc-46f5-ad68-e6da25726c20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c101ae3-c412-44c1-a741-e0622bb7c46f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4620c10-99fb-4af9-8b3e-484e14721a46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d59bb647-2b12-490d-9fa1-c36ef4e54352")
+		(sheetname "Raíz")
+		(sheetfile "JetsonToESC.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -2.286)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "7f9db21d-282a-459d-b13a-80dc0d53bdc3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "ebc5c970-082a-4ce7-8314-7879bd13f700")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.05 0)
+			(layer "F.Fab")
+			(uuid "e248c6b2-2bd3-4374-a09d-daa96794de74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "60f70be4-8b8c-4897-abc8-a7467fca5f9a")
 		)
 	)
 	(footprint "ESP32ModulesLibrary:MODULE_ESP32-C3_SUPERMINI_TH"
