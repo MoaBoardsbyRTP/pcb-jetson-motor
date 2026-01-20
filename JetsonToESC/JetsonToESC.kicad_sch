@@ -3,16 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "47af999a-55f7-4333-ac4c-b272b7fb2895")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols)
 	(sheet
-		(at 102.87 100.33)
-		(size 41.91 31.75)
+		(at 106.68 63.5)
+		(size 41.91 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -22,21 +21,24 @@
 		)
 		(uuid "0909a279-36d6-41ad-844b-878e1aabe858")
 		(property "Sheetname" "SensnAct"
-			(at 102.87 99.6184 0)
+			(at 115.824 82.042 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "sensnact.kicad_sch"
-			(at 102.87 132.6646 0)
+			(at 106.68 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -48,13 +50,12 @@
 		)
 	)
 	(sheet
-		(at 152.4 60.96)
-		(size 41.91 33.02)
+		(at 106.68 26.67)
+		(size 41.91 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,21 +65,24 @@
 		)
 		(uuid "1b96071f-fabd-4b53-bdc3-3b0c89ffd4e6")
 		(property "Sheetname" "DevBoard"
-			(at 152.4 60.2484 0)
+			(at 115.824 45.212 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "devboard.kicad_sch"
-			(at 152.4 94.5646 0)
+			(at 106.68 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -90,13 +94,12 @@
 		)
 	)
 	(sheet
-		(at 152.4 100.33)
+		(at 57.15 26.67)
 		(size 41.91 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -106,21 +109,24 @@
 		)
 		(uuid "8fdf19d0-90c3-4b22-af71-600484c613f0")
 		(property "Sheetname" "Power"
-			(at 152.4 99.6184 0)
+			(at 70.358 44.704 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 152.4 132.6646 0)
+			(at 57.15 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -132,13 +138,12 @@
 		)
 	)
 	(sheet
-		(at 102.87 60.96)
+		(at 57.15 63.5)
 		(size 41.91 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -148,21 +153,24 @@
 		)
 		(uuid "bd87f1de-e46c-4816-9460-8a924dc991a8")
 		(property "Sheetname" "Connectors"
-			(at 102.87 60.2484 0)
+			(at 65.532 82.296 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3 3)
+					(thickness 0.6)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 102.87 94.5646 0)
+			(at 57.15 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
