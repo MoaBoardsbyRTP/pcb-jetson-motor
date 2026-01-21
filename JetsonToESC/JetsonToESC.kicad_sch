@@ -109,7 +109,7 @@
 		)
 		(uuid "8fdf19d0-90c3-4b22-af71-600484c613f0")
 		(property "Sheetname" "Power"
-			(at 70.358 44.704 0)
+			(at 70.358 45.212 0)
 			(effects
 				(font
 					(size 3 3)
