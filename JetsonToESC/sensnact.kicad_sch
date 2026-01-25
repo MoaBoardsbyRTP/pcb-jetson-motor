@@ -3505,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Value" "ACS759xCB-100B-PFF"
+		(property "Value" "ACS759ECB-200B-PFF-T"
 			(at 69.85 76.1298 0)
 			(effects
 				(font
@@ -3531,7 +3531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "±100A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 13.2mV/A, CB-5 PFF"
+		(property "Description" "±200A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 6.6mV/A, CB-5 PFF"
 			(at 49.53 80.01 0)
 			(effects
 				(font
