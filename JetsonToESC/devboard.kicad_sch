@@ -4762,7 +4762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "609527d3-a9c4-4b7a-b9fa-16433e1f0d3b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 39.37 71.12 0)
 			(effects
 				(font
@@ -4813,7 +4813,7 @@
 		(instances
 			(project "JetsonToESC"
 				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/1b96071f-fabd-4b53-bdc3-3b0c89ffd4e6"
-					(reference "#PWR?")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4828,7 +4828,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "609527d3-a9c4-4b7a-b9fa-16433e1f0d3b")
+		(uuid "609527d3-a9c4-4b7a-b9fa-16433e1f0d3c")
 		(property "Reference" "#PWR033"
 			(at 33.02 86.36 0)
 			(effects
@@ -4875,7 +4875,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "71d36b9f-333a-445b-8e52-c6b5b435b025")
+			(uuid "71d36b9f-333a-445b-8e52-c6b5b435b026")
 		)
 		(instances
 			(project "JetsonToESC"
