@@ -1341,7 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 139.7 80.01)
+			(xy 139.7 66.04) (xy 139.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1358,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "196d63d8-5e2c-4725-a147-7bd0e109cf65")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4013ee-6c3e-4038-98b5-18ee4e0accc0")
 	)
 	(wire
 		(pts
@@ -1411,6 +1421,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 86.36) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf5b8b5-2f9e-40c7-a236-1144796e20e7")
+	)
+	(wire
+		(pts
 			(xy 52.07 43.18) (xy 55.88 43.18)
 		)
 		(stroke
@@ -1461,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 139.7 87.63)
+			(xy 139.7 74.93) (xy 139.7 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 80.01) (xy 143.51 80.01)
+			(xy 139.7 69.85) (xy 143.51 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1501,6 +1521,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 83.82) (xy 102.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce19ec05-1769-4ef2-939e-38b48a211548")
+	)
+	(wire
+		(pts
 			(xy 48.26 91.44) (xy 50.8 91.44)
 		)
 		(stroke
@@ -1511,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 139.7 85.09)
+			(xy 143.51 74.93) (xy 139.7 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1583,6 +1613,28 @@
 			)
 		)
 	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 100.33 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a58d059-df11-4214-9d02-3217c97b7bb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.241 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUTTON_STOP"
 		(shape input)
 		(at 50.8 68.58 0)
@@ -1601,6 +1653,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 100.33 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5cd847-9a00-4c2e-8bb3-d9ce3f5098d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5434 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1651,7 +1725,7 @@
 	)
 	(global_label "ESC_PWM"
 		(shape input)
-		(at 144.78 58.42 180)
+		(at 144.78 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1661,7 +1735,7 @@
 		)
 		(uuid "7a00c12a-b7ec-48cc-b755-690b11c6e91a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0259 58.42 0)
+			(at 133.0259 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,6 +1852,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab681ed-e681-4ba7-aba7-21cce145a2be")
+		(property "Reference" "#PWR038"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e097ce5-de16-4da6-8762-56c44824b06c")
+		)
+		(instances
+			(project "JetsonToESC"
+				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
+					(reference "#PWR038")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1914,7 +2055,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 144.78 55.88 90)
+		(at 144.78 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1923,7 +2064,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c2b0ed2-14be-4513-a9d1-90b30d167366")
 		(property "Reference" "#PWR012"
-			(at 148.59 55.88 0)
+			(at 148.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2073,7 @@
 			)
 		)
 		(property "Value" "VBEC"
-			(at 140.97 55.8799 90)
+			(at 140.97 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +2082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 55.88 0)
+			(at 144.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 55.88 0)
+			(at 144.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +2100,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 144.78 55.88 0)
+			(at 144.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2318,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 60.96 270)
+		(at 144.78 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2186,7 +2327,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fd16f9f-8cda-41cb-b2f7-92919e15417b")
 		(property "Reference" "#PWR010"
-			(at 138.43 60.96 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2336,7 @@
 			)
 		)
 		(property "Value" "GNDB"
-			(at 140.97 60.9599 90)
+			(at 140.97 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 60.96 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 60.96 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 60.96 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,6 +2378,79 @@
 			(project "JetsonToESC"
 				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 107.95 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6333485d-1ef1-49a3-9610-23224ff52762")
+		(property "Reference" "J6"
+			(at 110.49 85.0901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 110.49 82.5501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57aae748-e798-4911-89b7-577117cb5d8d")
+		)
+		(pin "1"
+			(uuid "5c3de2aa-ae72-400e-bfb0-0b4421899810")
+		)
+		(pin "3"
+			(uuid "d64560fc-e70d-4823-b6eb-9d1b1569dbfc")
+		)
+		(instances
+			(project "JetsonToESC"
+				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2310,7 +2524,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 76.2 0)
+		(at 139.7 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2319,7 +2533,7 @@
 		(fields_autoplaced yes)
 		(uuid "91de2534-dc60-45dd-a343-f264927add1d")
 		(property "Reference" "#PWR030"
-			(at 139.7 80.01 0)
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2542,7 @@
 			)
 		)
 		(property "Value" "VBAT_IN"
-			(at 139.7 71.12 0)
+			(at 139.7 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 76.2 0)
+			(at 139.7 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 76.2 0)
+			(at 139.7 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 76.2 0)
+			(at 139.7 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,7 +2656,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 149.86 58.42 0)
+		(at 149.86 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2450,7 +2664,7 @@
 		(dnp no)
 		(uuid "9cbe8786-c7d9-4c8e-a268-a72974dd57ce")
 		(property "Reference" "J2"
-			(at 152.4 57.1499 0)
+			(at 152.4 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2673,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 152.4 59.6899 0)
+			(at 152.4 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2682,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
-			(at 149.86 58.42 0)
+			(at 149.86 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 58.42 0)
+			(at 149.86 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2700,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 58.42 0)
+			(at 149.86 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2982,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 87.63 180)
+		(at 139.7 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2777,7 +2991,7 @@
 		(fields_autoplaced yes)
 		(uuid "d87fd6c8-2f41-4d0b-b9d0-3af82b8a1aa5")
 		(property "Reference" "#PWR031"
-			(at 139.7 83.82 0)
+			(at 139.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +3000,7 @@
 			)
 		)
 		(property "Value" "VBAT_OUT"
-			(at 139.7 92.71 0)
+			(at 139.7 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +3008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 87.63 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 87.63 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +3026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 87.63 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +3048,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 148.59 80.01 0)
+		(at 148.59 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2843,7 +3057,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0be03ab-7dc2-4dfe-b989-02694617607c")
 		(property "Reference" "J4"
-			(at 151.13 78.7399 0)
+			(at 151.13 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +3066,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 151.13 81.2799 0)
+			(at 151.13 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +3075,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 148.59 80.01 0)
+			(at 148.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +3084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 80.01 0)
+			(at 148.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3093,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 80.01 0)
+			(at 148.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +3115,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 148.59 85.09 0)
+		(at 148.59 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2910,7 +3124,7 @@
 		(fields_autoplaced yes)
 		(uuid "ece0c2a6-1c29-43d7-a008-3c740aa0f2b9")
 		(property "Reference" "J5"
-			(at 151.13 83.8199 0)
+			(at 151.13 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3133,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 151.13 86.3599 0)
+			(at 151.13 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 148.59 85.09 0)
+			(at 148.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +3151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 85.09 0)
+			(at 148.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +3160,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 85.09 0)
+			(at 148.59 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
