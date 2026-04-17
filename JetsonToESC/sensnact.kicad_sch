@@ -2596,7 +2596,7 @@
 			(uuid "6b01afe4-4027-4087-8f86-17b212715123")
 		)
 		(instances
-			(project ""
+			(project "JetsonToESC"
 				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/0909a279-36d6-41ad-844b-878e1aabe858"
 					(reference "U5")
 					(unit 1)
