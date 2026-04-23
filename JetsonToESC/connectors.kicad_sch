@@ -1637,7 +1637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
 			(at 90.17 21.59 0)
 			(effects
 				(font
@@ -2297,7 +2297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
 			(at 111.76 31.75 0)
 			(effects
 				(font
@@ -2423,7 +2423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
 			(at 90.17 31.75 0)
 			(effects
 				(font
@@ -2487,7 +2487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
 			(at 111.76 21.59 0)
 			(effects
 				(font
