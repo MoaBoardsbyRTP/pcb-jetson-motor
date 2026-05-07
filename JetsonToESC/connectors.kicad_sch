@@ -142,7 +142,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -151,14 +151,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -184,7 +184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -211,9 +211,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -221,6 +221,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -246,7 +257,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -264,7 +275,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -274,6 +285,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1190,16 +1219,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 43.18) (xy 55.88 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3432f999-673e-43e9-bd6c-d4dbe41c8647")
-	)
-	(wire
-		(pts
 			(xy 48.26 81.28) (xy 50.8 81.28)
 		)
 		(stroke
@@ -1210,13 +1229,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 55.88 46.99)
+			(xy 148.59 38.1) (xy 148.59 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52887c86-62bd-45fa-b6b5-6f377783632f")
+		(uuid "51ee1f1e-5f2f-443a-bd64-1e4992338456")
 	)
 	(wire
 		(pts
@@ -1237,16 +1256,6 @@
 			(type default)
 		)
 		(uuid "62c0fe27-b90c-4ad0-881a-0768837c524d")
-	)
-	(wire
-		(pts
-			(xy 52.07 43.18) (xy 55.88 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f4748d-7ef6-4f9b-bb84-08d9c20186dd")
 	)
 	(wire
 		(pts
@@ -1300,13 +1309,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 52.07 45.72)
+			(xy 148.59 40.64) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acc35502-2824-49f2-9e73-04a074e2249d")
+		(uuid "b1fcb7af-2ef1-4450-bd5d-8b0972fa5b7a")
 	)
 	(wire
 		(pts
@@ -1350,6 +1359,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 45.72) (xy 148.59 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e887ec87-ed01-49b9-bb0a-cee61051257e")
+	)
+	(wire
+		(pts
 			(xy 48.26 73.66) (xy 50.8 73.66)
 		)
 		(stroke
@@ -1367,6 +1386,26 @@
 			(type default)
 		)
 		(uuid "ede93cd9-fb8c-453c-9ff2-eb1dbf8df964")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59306e4-d42a-417d-810b-b1ed658afe89")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 148.59 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa74aa91-9b76-40d7-8078-6ed68a16fcfb")
 	)
 	(global_label "LED_OVERCURRENT"
 		(shape input)
@@ -1478,28 +1517,6 @@
 			)
 		)
 	)
-	(global_label "ESC_PWM"
-		(shape input)
-		(at 144.78 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a00c12a-b7ec-48cc-b755-690b11c6e91a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.0259 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUTTON_75%"
 		(shape input)
 		(at 50.8 76.2 0)
@@ -1518,6 +1535,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESC_PWM"
+		(shape input)
+		(at 149.86 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e8943af-55a7-4639-b818-a06f06dbe425")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.1059 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1607,6 +1646,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a193ba0-2318-478e-8be9-0cfe8a3fee71")
+		(property "Reference" "#PWR09"
+			(at 148.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd1e5eaa-8370-4a45-b559-a9dadf13687d")
+		)
+		(instances
+			(project "JetsonToESC"
+				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
+					(reference "#PWR09")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1742,6 +1847,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 158.75 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "476f3ff5-7017-4b5f-8f7a-d0132d3bc212")
+		(property "Reference" "J6"
+			(at 161.29 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 161.29 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0300_1x03_P3.00mm_Horizontal"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb51974a-f7bc-456a-a07e-5c88cf98319d")
+		)
+		(pin "3"
+			(uuid "73c69715-0e59-4776-a509-66f105b9f7f1")
+		)
+		(pin "2"
+			(uuid "0403bf89-bc04-4c62-a51f-7ec8a4b0d42a")
+		)
+		(instances
+			(project "JetsonToESC"
+				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 90.17 43.18 0)
 		(unit 1)
@@ -1800,74 +1978,6 @@
 			(project "JetsonToESC"
 				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
 					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 46.99 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5450cd39-b213-437a-a842-efef216c1da6")
-		(property "Reference" "J3"
-			(at 43.18 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 39.116 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 46.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6c7752d8-31f4-41d4-8bea-43de230eaf8e")
-		)
-		(pin "1"
-			(uuid "fff2c9ab-2cb0-41e6-b8d3-8a508b62edac")
-		)
-		(instances
-			(project "JetsonToESC"
-				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1938,151 +2048,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fd16f9f-8cda-41cb-b2f7-92919e15417b")
-		(property "Reference" "#PWR010"
-			(at 138.43 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd74d2e3-e255-416d-8ddf-649e966f91e1")
-		)
-		(instances
-			(project "JetsonToESC"
-				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 149.86 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e5933ba-32b5-424b-a457-8c0c6c11271d")
-		(property "Reference" "J2"
-			(at 153.67 61.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 157.734 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ce6c5cc-f84e-483f-bdc9-0be994151275")
-		)
-		(pin "1"
-			(uuid "43f5444c-1fc7-4d0a-9269-bc0eb7f8b6f6")
-		)
-		(instances
-			(project "JetsonToESC"
-				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 55.88 41.91 0)
+		(at 148.59 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "821d5c66-07d8-487b-b9d7-9d00bb48e889")
-		(property "Reference" "#PWR022"
-			(at 55.88 45.72 0)
+		(uuid "7463a2ba-5451-4c0e-ab81-a3d080a7e1a2")
+		(property "Reference" "#PWR08"
+			(at 148.59 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2067,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 55.88 36.83 0)
+			(at 148.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,7 +2075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 41.91 0)
+			(at 148.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 41.91 0)
+			(at 148.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 55.88 41.91 0)
+			(at 148.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2126,12 +2102,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "808858c8-0028-4e14-9331-5080ee53516b")
+			(uuid "5d078951-4d8e-4d09-b560-6fe9eadf7f01")
 		)
 		(instances
 			(project "JetsonToESC"
 				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
-					(reference "#PWR022")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2204,72 +2180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92c78abf-8a7c-4384-a77f-796378fa8793")
-		(property "Reference" "#PWR021"
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20a3a081-dfd6-4a9b-8ded-a741a927feaa")
-		)
-		(instances
-			(project "JetsonToESC"
-				(path "/47af999a-55f7-4333-ac4c-b272b7fb2895/bd87f1de-e46c-4816-9460-8a924dc991a8"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 111.76 31.75 0)
 		(unit 1)
@@ -2335,7 +2245,7 @@
 	)
 	(symbol
 		(lib_id "Logos:LogoMoaBoards")
-		(at 160.02 33.02 0)
+		(at 52.07 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2343,7 +2253,7 @@
 		(dnp no)
 		(uuid "b8409a8a-db29-43c8-9fc5-0b725758b8e7")
 		(property "Reference" "MoaBoardsLogo1"
-			(at 151.892 30.734 0)
+			(at 43.942 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2262,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 158.75 34.544 0)
+			(at 50.8 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2271,7 @@
 			)
 		)
 		(property "Footprint" "Logos:MoaBoards"
-			(at 160.02 33.02 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 33.02 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2289,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 33.02 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-1200_1x12_P3.00mm_Horizontal"
 			(at 43.18 78.74 0)
 			(effects
 				(font
