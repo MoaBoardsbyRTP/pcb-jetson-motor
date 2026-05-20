@@ -2200,6 +2200,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 58.42) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c55a66c-937d-48c9-ab9b-40f062f2cfdc")
+	)
+	(wire
+		(pts
 			(xy 71.12 109.22) (xy 64.77 109.22)
 		)
 		(stroke
@@ -2447,16 +2457,6 @@
 			(type default)
 		)
 		(uuid "80fbe5a7-e7e0-46a7-aa9f-1ddab93ab893")
-	)
-	(wire
-		(pts
-			(xy 127 73.66) (xy 129.54 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86903007-c6f8-47ab-906e-32f7774913c2")
 	)
 	(wire
 		(pts
@@ -3424,28 +3424,6 @@
 			)
 		)
 	)
-	(global_label "I2C_INT_A"
-		(shape input)
-		(at 127 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "be548f36-bb80-4644-9b06-eaf9cff0a67b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.0038 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM"
 		(shape input)
 		(at 39.37 33.02 180)
@@ -3459,28 +3437,6 @@
 		(uuid "c56910a7-43ac-4140-8a97-135e3598b5a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 32.212 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMP_SENSE"
-		(shape input)
-		(at 127 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c60341e5-26ee-449b-b1bd-5bb6ddcf3b14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.1617 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,6 +3503,50 @@
 		(uuid "e0982838-2856-4a97-a172-e3f3230aed56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 28.5834 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMP_SENSE"
+		(shape input)
+		(at 127 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5b8ef27-9be4-40e4-966d-2b38e18d1ea5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1617 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_INT_A"
+		(shape input)
+		(at 127 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0c43b4d-466e-4fff-ab11-97e63469fcec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.0038 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
